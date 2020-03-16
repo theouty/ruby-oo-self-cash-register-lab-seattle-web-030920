@@ -9,7 +9,9 @@ class CashRegister
     @last_price = 0
   end
   
-  #def add_item(title, price, quantity = 1)
-    #titl
+  def add_item(title, price, quantity = 1)
+    @title = title
+    @price = price 
+    @
   
 end
